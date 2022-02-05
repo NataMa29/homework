@@ -12,14 +12,9 @@ padding: 91px 124px;
 
 h1{
 height: 93px;
-width: 365px;
 font-family: Roboto Slab;
 font-size: 55px;
-font-style: normal;
-font-weight: 700;
 line-height: 56px;
-letter-spacing: 0em;
-text-align: left;
 margin: 0;
 }
 
@@ -32,18 +27,12 @@ height: 374px;
 width: 662px;
 font-family: Roboto;
 font-size: 24px;
-font-style: normal;
-font-weight: 400;
 line-height: 36px;
-letter-spacing: 0em;
-text-align: left;
 padding: 0;
 margin-right: 190px;
 }
 
-.photo1{
-    height: 344px;
-    width: 366px;
+.main-photo{
     margin-top: 41px;    
     margin-right: 124px;
     padding-left: 0;
@@ -55,9 +44,7 @@ margin-right: 190px;
     margin-left: 0;
 }
 
-.photo2{
-height: 219px;
-width: 232px;  
+.low-part-photo{ 
 margin: 94px 132px 157px 0;  
 }
 
@@ -65,23 +52,15 @@ margin: 94px 132px 157px 0;
     display: flex;
     justify-content: space-between;
     margin-top: 164px;
-    margin-bottom: 227px;
 }
 
 .desc{
     width: 150px;
-    height: 39px;
     margin-right: 93px;
 }
 
 h3{
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;    
+  font-size: 15px;  
  }
 
 @media screen and (min-width: 377px) and (max-width: 834px) {
@@ -90,51 +69,34 @@ h3{
       height: 633px;
       padding-left: 72px;
     }
-    .photo2{
+    .low-part-photo{
         display: none;
     }
 
     .text{
 height: 216.61px;
 width: 383.41px;
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
-font-weight: 400;
 line-height: 21px;
-letter-spacing: 0em;
-text-align: left;
-margin-right: 0;
     }
 
-    .photo1{
-height: 199.23px;
+    .main-photo{
 width: 211.98px;
 margin-left: 95px;
 margin-right: 71px;
     }
 
     h1{
-font-family: Roboto Slab;
 font-size: 32px;
-font-style: normal;
-font-weight: 700;
 line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
  }
 
  .desc{
-    font-family: Roboto;
+    
     font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;    
- }
-
   }
+}
   
 
   @media (max-width: 376px) {
@@ -157,35 +119,24 @@ text-align: left;
 height: 174px;
 width: 308px;
 margin-top: 8px;
-font-family: Roboto;
 font-size: 12px;
-font-style: normal;
-font-weight: 400;
 line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
 margin-bottom: 20px;
   }
 
-  .photo1{
-    height: 160px;
+  .main-photo{
     width: 171px;
     margin: 50px 0 30px 55px;
   }
 
-  .photo2{
+  .low-part-photo{
       display: none;
   }
 
   .decs{
 height: 18px;
 width: 86px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
 line-height: 13px;
-letter-spacing: 0em;
-text-align: left;
   }
 
   .desc p{
@@ -193,15 +144,9 @@ text-align: left;
     margin: 0;
   }
   h3{
-font-family: Roboto;
 font-size: 12px;
-font-style: normal;
-font-weight: 700;
 line-height: 16px;
-letter-spacing: 0em;
-text-align: left;
-height: 18.172916412353516px;
-width: 69.89583587646484px;
+height: 18px;
 margin: 0;
   }
 
@@ -218,5 +163,4 @@ margin: 0;
     margin: 0 0 20px 0;
     padding-right: 33px;
   }
- 
 }
